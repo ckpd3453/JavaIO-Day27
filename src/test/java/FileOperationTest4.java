@@ -20,7 +20,7 @@ public class FileOperationTest4 {
 	 * class has no access to it) private = restricted access However, it is
 	 * possible to access them if we provide public get and set methods.
 	 */
-	private static String HOME = "C:\\Users\\user\\Desktop\\Almas";
+	private static String HOME = "C:\\Users\\user\\Desktop\\CKPD";
 	private static String PLAY_WITH_NIO = "TempPlayGround";
 
 	@Test
