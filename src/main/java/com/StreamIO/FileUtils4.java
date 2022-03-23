@@ -7,7 +7,7 @@ import java.io.File;
  * Exist
  * @author CHANDRAKANT
  */
-public class FileUtils3 {
+public class FileUtils4 {
 	/**
 	 * created method deleteFiles to delete a File that has created
 	 * 

@@ -7,7 +7,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Java8WatchService {
+public class Java8WatchService4 {
 	
 	private static final Kind<?> ENTRY_DELETE = null;
 	private static final Kind<?> ENTRY_MODIFY = null;
@@ -22,7 +22,7 @@ public class Java8WatchService {
 	 * @param dir -passing parameter as path directory
 	 * @throws IOException -throws exception
 	 */
-	public Java8WatchService(Path dir) throws IOException {
+	public Java8WatchService4(Path dir) throws IOException {
 		this.watcher = FileSystems.getDefault().newWatchService();
 		this.dirWatchers = new HashMap<WatchKey, Path>();
 		scanAndRegisterDirectories(dir);
