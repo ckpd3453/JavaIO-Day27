@@ -1,10 +1,10 @@
 package com.StreamIO;
 
-public class EmployeePayrollData2 {
+public class EmployeePayrollData3 {
 	public int id;
 	public String name;
 	public double salary;
-	public EmployeePayrollData2(int id, String name, double salary) {
+	public EmployeePayrollData3(int id, String name, double salary) {
 		super();
 		this.id = id;
 		this.name = name;

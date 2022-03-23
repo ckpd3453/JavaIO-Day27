@@ -2,7 +2,12 @@ package com.StreamIO;
 
 import java.io.File;
 
-public class FileUtils {
+/**
+ * program to demonstrate File Operations like Delete File and Check File Not
+ * Exist
+ * @author CHANDRAKANT
+ */
+public class FileUtils3 {
 	/**
 	 * created method deleteFiles to delete a File that has created
 	 * 

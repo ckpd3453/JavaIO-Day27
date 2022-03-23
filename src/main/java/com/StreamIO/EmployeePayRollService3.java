@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class EmployeePayRollService2 {
+public class EmployeePayRollService3 {
 
 	/**
 	 * Java Enums can be thought of as classes which have a fixed set of constants
@@ -18,12 +18,12 @@ public class EmployeePayRollService2 {
 	/**
 	 * creating List of EmployeePayrollData
 	 */
-	private List<EmployeePayrollData2> employeePayrollList;
+	private List<EmployeePayrollData3> employeePayrollList;
 
 	/**
 	 * creating constructor of EmployeePayrollService() which is default type
 	 */
-	public EmployeePayRollService2() {
+	public EmployeePayRollService3() {
 	}
 
 	/**
@@ -32,7 +32,7 @@ public class EmployeePayRollService2 {
 	 * 
 	 * @param employeePayrollList -passing parameter
 	 */
-	public EmployeePayRollService2(List<EmployeePayrollData2> employeePayrollList) {
+	public EmployeePayRollService3(List<EmployeePayrollData3> employeePayrollList) {
 		this.employeePayrollList = employeePayrollList;
 	}
 
@@ -44,10 +44,10 @@ public class EmployeePayRollService2 {
 	public static void main(String[] args) {
 		
 		// creating List of Type EmployeePayrollData using ArrayList to store all the employeePayrolldata
-		List<EmployeePayrollData2> employeePayrollList = new ArrayList<EmployeePayrollData2>();
+		List<EmployeePayrollData3> employeePayrollList = new ArrayList<EmployeePayrollData3>();
 
 		// creating instance of EmployeePayrollData class
-		EmployeePayRollService2 employeePayrollService = new EmployeePayRollService2(employeePayrollList);
+		EmployeePayRollService3 employeePayrollService = new EmployeePayRollService3(employeePayrollList);
 
 		// using scanner to read input from console
 		Scanner consoleInputReader = new Scanner(System.in);
@@ -73,7 +73,7 @@ public class EmployeePayRollService2 {
 		/**
 		 * Adding EmployeePayrollData to the employeepayrollList
 		 */
-		employeePayrollList.add(new EmployeePayrollData2(id, name, salary));
+		employeePayrollList.add(new EmployeePayrollData3(id, name, salary));
 	}
 
 	/**
