@@ -10,11 +10,7 @@ import org.junit.Test;
 
 import com.StreamIO.FileUtils4;
 
-
-/*
- * To perform various operations using IOStream 
- */
-public class FileOperationTest4 {
+public class FileOPerationTest4 {
 	/**
 	 * private variables can only be accessed within the same class (an outside
 	 * class has no access to it) private = restricted access However, it is
