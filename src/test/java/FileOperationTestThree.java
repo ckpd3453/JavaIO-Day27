@@ -8,13 +8,13 @@ import java.util.stream.IntStream;
 
 import org.junit.Test;
 
-import com.StreamIO.FileUtils3;
+import com.StreamIO.FileUtilsThree;
 
 
 /*
  * To perform various operations using IOStream 
  */
-public class FileOperationTest3 {
+public class FileOperationTestThree {
 	/**
 	 * private variables can only be accessed within the same class (an outside
 	 * class has no access to it) private = restricted access However, it is
@@ -40,7 +40,7 @@ public class FileOperationTest3 {
 		// Delete file and check file does not exist
 		Path playPath = Paths.get(HOME + "/" + PLAY_WITH_NIO);
 		if (Files.exists(playPath))
-			FileUtils3.deleteFiles(playPath.toFile());
+			FileUtilsThree.deleteFiles(playPath.toFile());
 		assertTrue(Files.notExists(playPath));
 
 		//Create a directory
